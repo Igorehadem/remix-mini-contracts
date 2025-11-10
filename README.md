@@ -20,3 +20,19 @@ All demo contracts are deployed and verified on Base network.
 | Greeter | Base | `0x9a72b1bb3e697a940312194a1cc513b63202248b` | [Verified](https://basescan.org/address/0x9a72b1bb3e697a940312194a1cc513b63202248b#code) |
 | TinyStorage | Base | `0xb830621f455a71d5c1fe71033a7cb2c2485a3427` | [Verified](https://basescan.org/address/0xb830621f455a71d5c1fe71033a7cb2c2485a3427#code) |
 | Counter | Base | `0x5fe01e214aa4868aba4c6ddfcd67aeab8b822e0d` | [Verified](https://basescan.org/address/0x5fe01e214aa4868aba4c6ddfcd67aeab8b822e0d#code) |
+
+---
+
+## 🧠 How to use in Remix
+
+1. Open [Remix IDE](https://remix.ethereum.org)
+2. Create a new workspace (Solidity environment)
+3. Copy any contract from the `examples/` folder
+4. Compile with Solidity 0.8.24 or higher
+5. Deploy using “Injected Provider” → connect Base or Base Sepolia
+6. Verify contract manually on [basescan.org](https://basescan.org)
+
+Example:
+- Open `examples/Counter.sol`
+- Deploy with constructor argument `0`
+- Call `inc()` and `dec()` to test counter logic
